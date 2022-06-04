@@ -21,11 +21,11 @@ interface NewsApiService{
     @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/nasional")
     suspend fun getNasional() : List<Nasional>
 
-    @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/internasional")
-    suspend fun getInternasional() : List<Interasional>
-
-    @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/olahraga")
-    suspend fun getOlahrahga() : List<Olahraga>
+//    @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/internasional")
+//    suspend fun getInternasional() : List<Interasional>
+//
+//    @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/olahraga")
+//    suspend fun getOlahrahga() : List<Olahraga>
 }
 
 object NewsApi{
