@@ -6,7 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
 
-const val BASE_URL = "https://berita-indo-api.vercel.app/"
+const val BASE_URL = "https://berita-indo-api.vercel.app/v1/cnn-news/"
 
 val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
@@ -18,7 +18,7 @@ val retrofit = Retrofit.Builder()
     .build()
 
 interface NewsApiService{
-    @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/nasional")
+    @GET(value = "nasional")
     suspend fun getNasional() : List<Nasional>
 
 //    @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/internasional")
