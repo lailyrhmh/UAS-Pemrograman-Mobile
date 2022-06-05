@@ -18,4 +18,18 @@
         android:name="com.example.uasmobile.ui.nasional.NasionalDetailFragment"
         android:label="Detail Game"
         tools:layout="@layout/fragment_nasional_detail" />
+
+    <fragment
+        android:id="@+id/internasionalFragment"
+        android:name="com.example.uasmobile.ui.internasional.InternasionalFragment"
+        android:label="@string/app_name" >
+        <action
+            android:id="@+id/action_internasionalListFragment_to_internasionalDetailFragment"
+            app:destination="@id/internasionalDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/internasionalDetailFragment"
+        android:name="com.example.uasmobile.ui.internasional.InternasionalDetailFragment"
+        android:label="Detail Game"
+        tools:layout="@layout/fragment_internasional_detail" />
 </navigation>

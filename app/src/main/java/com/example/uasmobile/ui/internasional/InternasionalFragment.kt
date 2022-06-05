@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
@@ -21,16 +20,15 @@ class InternasionalFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentInternasionalBinding.inflate(inflater)
+
         viewModel.getInternasionalList()
         binding.lifecycleOwner = viewLifecycleOwner
         binding.viewModel = viewModel
-        binding.recyclerView.adapter = InternasionalAdapter(InternasionalListener { internasionals ->
+        binding.internasionalRV.adapter = InternasionalAdapter(InternasionalListener { internasionals ->
             viewModel.onInternasionalClicked(internasionals)
             findNavController()
-                .navigate(R.id.action_internasionalFragment_to_internasionalDetailsFragment)
+                .navigate(R.id.action_internasionalListFragment_to_internasionalDetailFragment)
         })
-
-        (activity as AppCompatActivity).supportActionBar?.title = "News"
 
         return binding.root
     }

@@ -5,14 +5,14 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.uasmobile.databinding.InternasionalItemBinding
 import com.example.uasmobile.network.Internasional
-
 
 class InternasionalAdapter (private val clickListener: InternasionalListener) :
     ListAdapter<Internasional, InternasionalAdapter.InternasionalViewHolder>(DiffCallback)
 {
     class InternasionalViewHolder(
-        var binding: InternasionalRowBinding
+        var binding: InternasionalItemBinding
     ) : RecyclerView.ViewHolder(binding.root){
         fun bind(clickListener: InternasionalListener, internasional: Internasional) {
             binding.internasional = internasional
@@ -35,7 +35,7 @@ class InternasionalAdapter (private val clickListener: InternasionalListener) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): InternasionalViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         return InternasionalViewHolder(
-            InternasionalRowBinding.inflate(layoutInflater, parent, false)
+            InternasionalItemBinding.inflate(layoutInflater, parent, false)
         )
     }
 
