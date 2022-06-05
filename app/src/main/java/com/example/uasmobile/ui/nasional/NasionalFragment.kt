@@ -27,7 +27,7 @@ class NasionalFragment : Fragment() {
         binding.nasionalRV.adapter = NasionalAdapter(NasionalListener { nasionals ->
             viewModel.onNasionalClicked(nasionals)
             findNavController()
-                .navigate(R.id.action_nasionalListFragment_to_nasionalDetailFragment)
+                .navigate(R.id.action_nasionalFragment_to_nasionalDetailFragment)
         })
 
         return binding.root

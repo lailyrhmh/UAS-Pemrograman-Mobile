@@ -27,7 +27,7 @@ class InternasionalFragment : Fragment() {
         binding.internasionalRV.adapter = InternasionalAdapter(InternasionalListener { internasionals ->
             viewModel.onInternasionalClicked(internasionals)
             findNavController()
-                .navigate(R.id.action_internasionalListFragment_to_internasionalDetailFragment)
+                .navigate(R.id.action_internasionalFragment_to_internasionalDetailFragment)
         })
 
         return binding.root
