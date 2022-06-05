@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/nasionalFragment"
-        android:icon="@drawable/ic_menu_camera"
+        android:icon="@drawable/ic_menu_gallery"
         android:title="Nasional" />
 
     <item
         android:id="@+id/internasionalFragment"
-        android:icon="@drawable/ic_menu_gallery"
+        android:icon="@drawable/ic_menu_camera"
         android:title="Internasional" />
 
     <item
