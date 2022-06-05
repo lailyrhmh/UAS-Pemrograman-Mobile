@@ -9,5 +9,5 @@ data class Internasional(
     val isoDate: String
 ): Serializable {}
 data class InternasionalResponse(
-    val data:List<Nasional>
+    val data:List<Internasional>
 ) {}
