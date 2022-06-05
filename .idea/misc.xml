@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable-v24/ic_connection_error.xml" value="0.1" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable-v24/loading_img.xml" value="0.121" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/fragment_home.xml" value="0.10989583333333333" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/fragment_nasional.xml" value="0.25" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/fragment_nasional_detail.xml" value="0.10740740740740741" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/fragment_slideshow.xml" value="0.10989583333333333" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/nasional_item.xml" value="0.10989583333333333" />
+        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/news_item.xml" value="0.25" />
       </map>
     </option>
   </component>
