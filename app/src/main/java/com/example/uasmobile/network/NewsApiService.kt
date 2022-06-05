@@ -29,8 +29,8 @@ interface NewsApiService{
     @GET(value = "internasional")
     fun getInternasional() : Deferred<InternasionalResponse>
 
-//    @GET(value = "https://berita-indo-api.vercel.app/v1/cnn-news/olahraga")
-//    suspend fun getOlahrahga() : List<Olahraga>
+    @GET(value = "olahraga")
+    fun getOlahraga() : Deferred<OlahragaResponse>
 }
 
 object NewsApi{
