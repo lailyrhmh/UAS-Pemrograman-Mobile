@@ -14,12 +14,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.nasional.NasionalFragment">
+        tools:context=".ui.nasional.NasionalFragment" >
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/nasionalRV"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:listData="@{viewModel.nasionals}"
             android:orientation="vertical"
             android:scrollbars="vertical"
             app:layoutManager="LinearLayoutManager" />
