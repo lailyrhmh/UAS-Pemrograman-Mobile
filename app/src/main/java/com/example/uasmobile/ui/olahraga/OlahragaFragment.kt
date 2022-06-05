@@ -27,7 +27,7 @@ class OlahragaFragment : Fragment() {
         binding.olahragaRV.adapter = OlahragaAdapter(OlahragaListener { olahragas ->
             viewModel.onOlahragaClicked(olahragas)
             findNavController()
-                .navigate(R.id.action_olahragaListFragment_to_olahragaDetailFragment)
+                .navigate(R.id.action_olahragaFragment_to_olahragaDetailFragment)
         })
 
         return binding.root

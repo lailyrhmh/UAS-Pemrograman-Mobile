@@ -15,10 +15,10 @@ enum class OlahragaApiStatus {LOADING, ERROR, DONE}
 class OlahragaViewModel : ViewModel() {
 
     private val _olahraga = MutableLiveData<Olahraga>()
-    val olahraga: LiveData<Nasional> = _olahraga
+    val olahraga: LiveData<Olahraga> = _olahraga
 
     private val _olahragas = MutableLiveData<List<Olahraga>>()
-    val olahragas: LiveData<List<Nasional>> = _olahragas
+    val olahragas: LiveData<List<Olahraga>> = _olahragas
 
     private val _status = MutableLiveData<OlahragaApiStatus>()
     val status: LiveData<OlahragaApiStatus> = _status

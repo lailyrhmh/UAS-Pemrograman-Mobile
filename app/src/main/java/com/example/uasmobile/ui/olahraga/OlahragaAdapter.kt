@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.uasmobile.databinding.OlahragaItemBinding
 import com.example.uasmobile.network.Olahraga
 
 class OlahragaAdapter(private val clickListener: OlahragaListener) :
