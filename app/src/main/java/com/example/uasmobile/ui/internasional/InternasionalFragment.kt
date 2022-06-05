@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.example.uas_mobile.R
+import com.example.uasmobile.R
 import com.example.uasmobile.databinding.FragmentInternasionalBinding
 
 class InternasionalFragment : Fragment() {
