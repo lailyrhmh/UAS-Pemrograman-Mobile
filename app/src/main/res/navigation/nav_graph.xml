@@ -8,28 +8,57 @@
     <fragment
         android:id="@+id/nasionalFragment"
         android:name="com.example.uasmobile.ui.nasional.NasionalFragment"
-        android:label="@string/app_name" >
+        android:label="Nasional Fragment"
+        tools:layout="@layout/fragment_nasional">
         <action
-            android:id="@+id/action_nasionalListFragment_to_nasionalDetailFragment"
+            android:id="@+id/action_nasionalFragment_to_nasionalDetailFragment"
             app:destination="@id/nasionalDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/nasionalDetailFragment"
         android:name="com.example.uasmobile.ui.nasional.NasionalDetailFragment"
-        android:label="Detail Game"
-        tools:layout="@layout/fragment_nasional_detail" />
+        android:label="Detail Nasional">
+        <action
+            android:id="@+id/action_nasionalDetailFragment_to_nasionalFragment"
+            app:destination="@id/nasionalFragment"
+            />
+    </fragment>
 
     <fragment
         android:id="@+id/internasionalFragment"
         android:name="com.example.uasmobile.ui.internasional.InternasionalFragment"
-        android:label="@string/app_name" >
+        android:label="Internasional Fragment"
+        tools:layout="@layout/fragment_internasional">
         <action
-            android:id="@+id/action_internasionalListFragment_to_internasionalDetailFragment"
+            android:id="@+id/action_internasionalFragment_to_internasionalDetailFragment"
             app:destination="@id/internasionalDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/internasionalDetailFragment"
         android:name="com.example.uasmobile.ui.internasional.InternasionalDetailFragment"
-        android:label="Detail Game"
-        tools:layout="@layout/fragment_internasional_detail" />
+        android:label="Detail Internasional">
+        <action
+            android:id="@+id/action_internasionalFragment_to_internasionalDetailFragment"
+            app:destination="@id/internasionalFragment"
+            />
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/olahragaFragment"-->
+<!--        android:name="com.example.uasmobile.ui.internasional.InternasionalFragment"-->
+<!--        android:label="@string/app_name" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_olahragaFragment_to_olahragaDetailFragment"-->
+<!--            app:destination="@id/olahragaDetailFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/olahragaDetailFragment"-->
+<!--        android:name="com.example.uasmobile.ui.internasional.InternasionalDetailFragment"-->
+<!--        android:label="Detail Game"-->
+<!--        tools:layout="@layout/fragment_olahraga_detail" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_olahragaFragment_to_olahragaDetailFragment"-->
+<!--            app:destination="@id/olahragaFragment"-->
+<!--            />-->
+<!--    </fragment>-->
 </navigation>

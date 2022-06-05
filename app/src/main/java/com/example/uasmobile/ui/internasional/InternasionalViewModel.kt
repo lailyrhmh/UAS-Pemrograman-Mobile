@@ -29,7 +29,7 @@ class InternasionalViewModel : ViewModel() {
         viewModelScope.launch {
             _status.value = InternasionalApiStatus.LOADING
                 try {
-                    _internasionals.value = NewsApi.retrofitService.getInternasional().await().results
+                    _internasionals.value = NewsApi.retrofitService.getInternasional().await().data
                     _status.value = InternasionalApiStatus.DONE
                 } catch (e: Exception) {
                     _internasionals.value = listOf()
