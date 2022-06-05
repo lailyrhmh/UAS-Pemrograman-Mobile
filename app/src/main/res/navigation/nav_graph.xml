@@ -46,7 +46,8 @@
     <fragment
         android:id="@+id/olahragaFragment"
         android:name="com.example.uasmobile.ui.olahraga.OlahragaFragment"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_olahraga">
         <action
             android:id="@+id/action_olahragaFragment_to_olahragaDetailFragment"
             app:destination="@id/olahragaDetailFragment" />
@@ -54,8 +55,7 @@
     <fragment
         android:id="@+id/olahragaDetailFragment"
         android:name="com.example.uasmobile.ui.olahraga.OlahragaDetailFragment"
-        android:label="Detail Game"
-        tools:layout="@layout/fragment_olahraga_detail" >
+        android:label="Detail Game" >
         <action
             android:id="@+id/action_olahragaFragment_to_olahragaDetailFragment"
             app:destination="@id/olahragaFragment"
