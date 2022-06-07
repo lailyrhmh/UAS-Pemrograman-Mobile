@@ -7,6 +7,7 @@ data class Nasional(
     val link: String,
     val contentSnippet: String,
     val isoDate: String
+
 ) : Serializable {}
 data class NasionalResponse(
     val data:List<Nasional>
