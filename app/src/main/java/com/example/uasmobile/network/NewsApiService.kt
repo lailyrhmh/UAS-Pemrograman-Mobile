@@ -9,7 +9,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.converter.scalars.ScalarsConverterFactory
 import retrofit2.http.GET
 
-const val BASE_URL = "https://berita-indo-api.vercel.app/v1/cnn-news/"
+const val BASE_URL = "https://berita-indo-api.vercel.app/v1/antara-news/"
 
 val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
@@ -23,7 +23,7 @@ val retrofit = Retrofit.Builder()
     .build()
 
 interface NewsApiService{
-    @GET(value = "nasional")
+    @GET(value = "hukum")
     fun getNasional() : Deferred<NasionalResponse>
 
     @GET(value = "internasional")

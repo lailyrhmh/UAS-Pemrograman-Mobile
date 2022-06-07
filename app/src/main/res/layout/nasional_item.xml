@@ -11,6 +11,9 @@
         <variable
             name="clickListener"
             type="com.example.uasmobile.ui.nasional.NasionalListener" />
+        <variable
+            name="viewModel"
+            type="com.example.uasmobile.ui.nasional.NasionalViewModel" />
     </data>
 
     <com.google.android.material.card.MaterialCardView
@@ -27,10 +30,11 @@
 
             <ImageView
                 android:id="@+id/item_image"
+                app:imageUrl="@{nasional.image}"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:importantForAccessibility="no"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"/>
 
             <TextView
                 android:id="@+id/item_title"
