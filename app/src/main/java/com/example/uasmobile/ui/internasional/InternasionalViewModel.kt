@@ -25,6 +25,10 @@ class InternasionalViewModel : ViewModel() {
         return list.joinToString("\n")
     }
 
+    init {
+        getInternasionalList()
+    }
+
     fun getInternasionalList() {
         viewModelScope.launch {
             _status.value = InternasionalApiStatus.LOADING

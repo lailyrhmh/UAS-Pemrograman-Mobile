@@ -11,10 +11,6 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.uasmobile.R
 import com.example.uasmobile.databinding.FragmentInternasionalDetailBinding
-import com.example.uasmobile.databinding.FragmentNasionalDetailBinding
-import com.example.uasmobile.ui.nasional.NasionalAdapter
-import com.example.uasmobile.ui.nasional.NasionalListener
-import com.example.uasmobile.ui.nasional.NasionalViewModel
 
 class InternasionalDetailFragment : Fragment() {
     private val viewModel: InternasionalViewModel by activityViewModels()
