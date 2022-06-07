@@ -4,6 +4,8 @@ import android.view.View
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import com.example.uasmobile.network.Internasional
 import com.example.uasmobile.network.Nasional
 import com.example.uasmobile.network.Olahraga
@@ -32,6 +34,18 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<Internasional>?) {
 fun binRecylerView(recyclerView: RecyclerView, data : List<Olahraga>?) {
     val adapter = recyclerView.adapter as OlahragaAdapter
     adapter.submitList(data)
+}
+
+@BindingAdapter("imageUrl")
+fun bindImage(imgView: ImageView, imgUrl: String?){
+    imgUrl?.let{
+        Glide.with(imgView.context)
+            .load(it)
+            .apply(
+                RequestOptions()
+            )
+            .into(imgView)
+    }
 }
 
 @BindingAdapter("apiStatus")
