@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/nasionalFragment"
         android:name="com.example.uasmobile.ui.nasional.NasionalFragment"
-        android:label="fragment_nasional"
+        android:label="Antara News"
         tools:layout="@layout/fragment_nasional" >
         <action
             android:id="@+id/action_nasionalFragment_to_nasionalDetailFragment"
@@ -25,7 +25,7 @@
     <fragment
         android:id="@+id/internasionalFragment"
         android:name="com.example.uasmobile.ui.internasional.InternasionalFragment"
-        android:label="fragment_internasional"
+        android:label="Antara News"
         tools:layout="@layout/fragment_internasional" >
         <action
             android:id="@+id/action_internasionalFragment_to_internasionalDetailFragment"
@@ -43,7 +43,7 @@
     <fragment
         android:id="@+id/olahragaFragment"
         android:name="com.example.uasmobile.ui.olahraga.OlahragaFragment"
-        android:label="fragment_olahraga"
+        android:label="Antara News"
         tools:layout="@layout/fragment_olahraga" >
         <action
             android:id="@+id/action_olahragaFragment_to_olahragaDetailFragment"
