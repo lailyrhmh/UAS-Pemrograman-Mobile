@@ -26,7 +26,7 @@ interface NewsApiService{
     @GET(value = "hukum")
     fun getNasional() : Deferred<NasionalResponse>
 
-    @GET(value = "internasional")
+    @GET(value = "dunia")
     fun getInternasional() : Deferred<InternasionalResponse>
 
     @GET(value = "olahraga")

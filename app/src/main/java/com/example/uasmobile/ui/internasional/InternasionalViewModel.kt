@@ -12,6 +12,7 @@ import kotlinx.coroutines.launch
 enum class InternasionalApiStatus { LOADING, ERROR, DONE }
 
 class InternasionalViewModel : ViewModel() {
+
     private val _status = MutableLiveData<InternasionalApiStatus>()
     val status: LiveData<InternasionalApiStatus> = _status
 
@@ -20,10 +21,6 @@ class InternasionalViewModel : ViewModel() {
 
     private val _internasional = MutableLiveData<Internasional>()
     val internasional: LiveData<Internasional> = _internasional
-
-    fun listToString(list: List<String>): String {
-        return list.joinToString("\n")
-    }
 
     init {
         getInternasionalList()

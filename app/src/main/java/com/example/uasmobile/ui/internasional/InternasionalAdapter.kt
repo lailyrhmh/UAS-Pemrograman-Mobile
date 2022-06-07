@@ -27,8 +27,8 @@ class InternasionalAdapter (private val clickListener: InternasionalListener) :
         }
 
         override fun areContentsTheSame(oldItem: Internasional, newItem: Internasional): Boolean {
-            return oldItem.link == newItem.link && oldItem.contentSnippet == newItem.contentSnippet
-                    && oldItem.isoDate == newItem.isoDate
+            return oldItem.link == newItem.link && oldItem.image == newItem.image
+                    && oldItem.isoDate == newItem.isoDate && oldItem.description == newItem.description
         }
     }
 
