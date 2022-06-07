@@ -29,7 +29,7 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<Internasional>?) {
 
 @JvmName("bindRecyclerView2")
 @BindingAdapter("listData")
-fun binRecylerView(recyclerView: RecyclerView, data : List<Olahraga>) {
+fun binRecylerView(recyclerView: RecyclerView, data : List<Olahraga>?) {
     val adapter = recyclerView.adapter as OlahragaAdapter
     adapter.submitList(data)
 }
