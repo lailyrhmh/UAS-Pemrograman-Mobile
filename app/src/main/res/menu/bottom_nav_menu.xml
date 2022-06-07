@@ -3,13 +3,13 @@
 
     <item
         android:id="@+id/nasionalFragment"
-        android:icon="@drawable/ic_menu_gallery"
-        android:title="Nasional" />
+        android:icon="@drawable/ic_hukum"
+        android:title="Hukum" />
 
     <item
         android:id="@+id/internasionalFragment"
-        android:icon="@drawable/ic_menu_camera"
-        android:title="Internasional" />
+        android:icon="@drawable/ic_dunia"
+        android:title="Dunia" />
 
     <item
         android:id="@+id/olahragaFragment"
