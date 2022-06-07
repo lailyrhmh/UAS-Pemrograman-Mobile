@@ -10,7 +10,8 @@ import androidx.navigation.fragment.findNavController
 import com.example.uasmobile.R
 import com.example.uasmobile.databinding.FragmentOlahragaBinding
 
-class OlahragaFragment : Fragment() {
+class
+OlahragaFragment : Fragment() {
 
     private val viewModel: OlahragaViewModel by activityViewModels()
 

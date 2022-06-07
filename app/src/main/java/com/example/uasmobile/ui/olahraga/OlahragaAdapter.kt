@@ -27,7 +27,9 @@ class OlahragaAdapter(private val clickListener: OlahragaListener) :
         }
 
         override fun areContentsTheSame(oldItem: Olahraga, newItem: Olahraga): Boolean {
-            return oldItem.link == newItem.link && oldItem.contentSnippet == newItem.contentSnippet && oldItem.isoDate == newItem.isoDate
+            return oldItem.link == newItem.link && oldItem.image == newItem.image && oldItem.isoDate == newItem.isoDate
+                    && oldItem.description == newItem.description
+
         }
     }
 

@@ -23,9 +23,9 @@ class OlahragaViewModel : ViewModel() {
     private val _status = MutableLiveData<OlahragaApiStatus>()
     val status: LiveData<OlahragaApiStatus> = _status
 
-    fun listToString(list: List<String>): String {
-        return list.joinToString("\n")
-    }
+//    fun listToString(list: List<String>): String {
+//        return list.joinToString("\n")
+//    }
 
     init {
         getOlahragaList()

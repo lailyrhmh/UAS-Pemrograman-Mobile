@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/olahragaFragment"
-        android:icon="@drawable/ic_menu_slideshow"
+        android:icon="@drawable/ic_outline_olahraga"
         android:title="Olahraga" />
 
 </menu>

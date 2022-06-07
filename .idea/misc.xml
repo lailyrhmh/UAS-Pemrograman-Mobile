@@ -5,10 +5,6 @@
       <map>
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable-v24/ic_connection_error.xml" value="0.1" />
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable-v24/loading_img.xml" value="0.121" />
-        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable/ic_dunia.xml" value="0.1" />
-        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable/ic_hukum.xml" value="0.1" />
-        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
-        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/activity_main.xml" value="0.136" />
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/layout/content_main.xml" value="0.25" />
@@ -29,8 +25,18 @@
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/menu/bottom_nav_menu_.xml" value="0.25" />
         <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/menu/main.xml" value="0.25" />
-        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/mipmap-anydpi-v26/ic_news.xml" value="0.1" />
-        <entry key="..\:/Data/KULIAH/semester 4/pmobile/UAS/app/src/main/res/mipmap-anydpi-v26/ic_news_round.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_home.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_internasional.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_internasional_detail.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_nasional.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_nasional_detail.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_olahraga.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_olahraga_detail.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/internasional_item.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/nasional_item.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/olahraga_item.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

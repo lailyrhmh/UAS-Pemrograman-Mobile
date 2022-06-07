@@ -11,6 +11,9 @@
         <variable
             name="clickListener"
             type="com.example.uasmobile.ui.olahraga.OlahragaListener" />
+        <variable
+            name="viewModel"
+            type="com.example.uasmobile.ui.olahraga.OlahragaViewModel" />
     </data>
 
     <com.google.android.material.card.MaterialCardView
@@ -27,6 +30,7 @@
 
             <ImageView
                 android:id="@+id/item_image"
+                app:imageUrl="@{olahraga.image}"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:importantForAccessibility="no"
