@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@{viewModel.nasional.title}"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Harry Potter"/>
@@ -39,31 +39,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            android:text="@{}"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:text="@{viewModel.nasional.description}"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/name"
             tools:text="Human"/>
-        <TextView
-            android:id="@+id/gender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="@{}"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/species"
-            tools:text="Male"/>
-        <TextView
-            android:id="@+id/house"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="@{}"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/gender"
-            tools:text="Grifinder"/>
+<!--        <TextView-->
+<!--            android:id="@+id/gender"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="8dp"-->
+<!--            android:text="@{}"-->
+<!--            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/species"-->
+<!--            tools:text="Male"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/house"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="8dp"-->
+<!--            android:text="@{}"-->
+<!--            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/gender"-->
+<!--            tools:text="Grifinder"/>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
