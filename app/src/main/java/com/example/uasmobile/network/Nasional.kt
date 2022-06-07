@@ -5,8 +5,9 @@ import java.io.Serializable
 data class Nasional(
     val title: String,
     val link: String,
-    val contentSnippet: String,
-    val isoDate: String
+    val description: String,
+    val isoDate: String,
+    val image: String
 
 ) : Serializable {}
 data class NasionalResponse(

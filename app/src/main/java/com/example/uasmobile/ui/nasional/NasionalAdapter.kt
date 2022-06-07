@@ -28,7 +28,8 @@ class NasionalAdapter(private val clickListener: NasionalListener) :
         }
 
         override fun areContentsTheSame(oldItem: Nasional, newItem: Nasional): Boolean {
-            return oldItem.link == newItem.link && oldItem.contentSnippet == newItem.contentSnippet && oldItem.isoDate == newItem.isoDate
+            return oldItem.link == newItem.link && oldItem.image == newItem.image && oldItem.isoDate == newItem.isoDate
+                    && oldItem.description == newItem.description
         }
     }
 

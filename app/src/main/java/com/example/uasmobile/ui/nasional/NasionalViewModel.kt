@@ -22,9 +22,9 @@ class NasionalViewModel : ViewModel() {
     private val _status = MutableLiveData<NasionalApiStatus>()
     val status: LiveData<NasionalApiStatus> = _status
 
-    fun listToString(list: List<String>): String {
-        return list.joinToString("\n")
-    }
+//    fun listToString(list: List<String>): String {
+//        return list.joinToString("\n")
+//    }
 
     init {
         getNasionalList()
