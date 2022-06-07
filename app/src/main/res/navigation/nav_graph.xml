@@ -26,10 +26,10 @@
         android:id="@+id/internasionalFragment"
         android:name="com.example.uasmobile.ui.internasional.InternasionalFragment"
         android:label="fragment_internasional"
-        tools:layout="@layout/fragment_nasional" >
+        tools:layout="@layout/fragment_internasional" >
         <action
             android:id="@+id/action_internasionalFragment_to_internasionalDetailFragment"
-            app:destination="@id/nasionalDetailFragment" />
+            app:destination="@id/internasionalDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/internasionalDetailFragment"
@@ -37,7 +37,7 @@
         android:label="InternasionalDetailFragment" >
         <action
             android:id="@+id/action_internasionalDetailFragment_to_internasionalFragment"
-            app:destination="@id/nasionalFragment" />
+            app:destination="@id/internasionalFragment" />
     </fragment>
 
     <fragment
