@@ -10,4 +10,7 @@
     <color name="maroon_200">#900000</color>
     <color name="maroon_500">#800000</color>
     <color name="maroon_700">#730d0d</color>
+    <color name="bata_700">#b22222</color>
+    <color name="krimson">#dc143c</color>
+    <color name="salmon">#964b00</color>
 </resources>
