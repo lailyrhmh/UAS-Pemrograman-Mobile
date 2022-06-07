@@ -20,6 +20,7 @@
             android:id="@+id/olahragaRV"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:listData="@{viewModel.olahragas}"
             android:orientation="vertical"
             android:scrollbars="vertical"
             app:layoutManager="LinearLayoutManager" />

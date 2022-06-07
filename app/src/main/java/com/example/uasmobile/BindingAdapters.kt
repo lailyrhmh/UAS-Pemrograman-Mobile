@@ -6,10 +6,13 @@ import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uasmobile.network.Internasional
 import com.example.uasmobile.network.Nasional
+import com.example.uasmobile.network.Olahraga
 import com.example.uasmobile.ui.internasional.InternasionalAdapter
 import com.example.uasmobile.ui.internasional.InternasionalApiStatus
 import com.example.uasmobile.ui.nasional.NasionalAdapter
 import com.example.uasmobile.ui.nasional.NasionalApiStatus
+import com.example.uasmobile.ui.olahraga.OlahragaAdapter
+import com.example.uasmobile.ui.olahraga.OlahragaApiStatus
 
 @BindingAdapter("listData")
 fun bindRecyclerView(recyclerView: RecyclerView, data: List<Nasional>?) {
@@ -21,6 +24,13 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<Nasional>?) {
 @BindingAdapter("listData")
 fun bindRecyclerView(recyclerView: RecyclerView, data: List<Internasional>?) {
     val adapter = recyclerView.adapter as InternasionalAdapter
+    adapter.submitList(data)
+}
+
+@JvmName("bindRecyclerView2")
+@BindingAdapter("listData")
+fun binRecylerView(recyclerView: RecyclerView, data : List<Olahraga>) {
+    val adapter = recyclerView.adapter as OlahragaAdapter
     adapter.submitList(data)
 }
 
@@ -52,6 +62,23 @@ fun bindStatus(statusImageView: ImageView, status: InternasionalApiStatus?) {
             statusImageView.visibility = View.GONE
         }
         InternasionalApiStatus.ERROR -> {
+            statusImageView.visibility = View.VISIBLE
+            statusImageView.setImageResource(R.drawable.ic_connection_error)
+        }
+    }
+}
+
+@BindingAdapter("apiStatus")
+fun bindStatus(statusImageView: ImageView, status: OlahragaApiStatus?) {
+    when(status) {
+        OlahragaApiStatus.LOADING -> {
+            statusImageView.visibility = View.VISIBLE
+            statusImageView.setImageResource(R.drawable.loading_animation)
+        }
+        OlahragaApiStatus.DONE -> {
+            statusImageView.visibility = View.GONE
+        }
+        OlahragaApiStatus.ERROR -> {
             statusImageView.visibility = View.VISIBLE
             statusImageView.setImageResource(R.drawable.ic_connection_error)
         }
